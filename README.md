@@ -69,8 +69,11 @@ Connects to the Postgres sql database as the user 'postgres' on port 5433, It as
   ```
 This command displays list of all tables in the current database
 
-
-
+-**View table data and exit psql**
+```sh
+select * from fetch_DB
+\q
+```
 
 - **Run the python script**
 ```sh
