@@ -81,6 +81,11 @@ python etl_script.py
 ```
 Run the python code to execute etl operation.
 
+--**Stop the docker**
+```sh
+docker-compose down
+```
+
 
 
 
